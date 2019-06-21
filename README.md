@@ -7,7 +7,7 @@ API que disponibiliza letras de **músicas** utilizando a plataforma **Musixmatc
 
 Parte do modelo arquitetural representa a comunicação com a API musicmatch. O app-music faz uma requisição ao recurso "letras" passando como parâmetro o artista e a música. Caso encontrada, a letra será retornada de forma reduzida, limitação para o uso gratuito do serviço.
 
-A documentação do microsserviço foi documentada pelo Swagger. Visualização através da seguinte URL:
+O microsserviço foi documentado utilizando o Swagger. Visualização através da seguinte URL:
 
 - http://[host]/swagger-ui.html
 
