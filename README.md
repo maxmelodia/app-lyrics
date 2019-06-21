@@ -10,3 +10,6 @@ Parte do modelo arquitetural representa a comunicação com a API musicmatch. O 
 A documentação do microsserviço foi documentada pelo Swagger. Visualização através da seguinte URL:
 
 - http://[host]/swagger-ui.html
+
+- Implementado o padrão "Circuit Breaker", utilizando o Hystrix, biblioteca desenvolvida pela
+NetFlix para evitar problemas de latência e falhas no microsserviço.
